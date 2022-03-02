@@ -1,0 +1,13 @@
+reset
+set term png
+set output 'H_2_Vs_Time.PNG'
+
+set logscale x
+set format x "%S"
+set key off
+set title 'H_2 Vs Time'
+set ylabel 'Percentage of Hydrogen (# H_2 / tottal possible # H_2)'
+set xlabel 'log(time) (log(s))'
+p 'stat_moves.dat' u 1:($8)/10 w p ps 3 pt 5
+
+

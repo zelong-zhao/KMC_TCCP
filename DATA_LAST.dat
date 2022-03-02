@@ -1,0 +1,13 @@
+# KMC_STEPS,delta_time,temp,
+100000,.42891E+14,300.00000,
+# diff 1-2,diff 3-4,associat,dehydrat,h_moveme, h_gone , hydrate,
+99797,0,1,104,0,6,92,
+# X,Y,DIMER_P,bonds_5,bonds_6,bonds_7,bonds_8,dehydrated_5,dehydrated_6,dehydrated_7,dehydrated_8,
+4,1,1,0,0,0,2,T,T,T,T,
+7,8,1,0,1,0,0,T,T,T,T,
+3,6,0,0,0,0,0,T,T,T,T,
+# N_of_hydrogen_on_surface,
+0,
+# HYDROGEN_X,HYDROGEN_Y,HYDROGEN_EXISTED,
+# random_seed
+1683357459

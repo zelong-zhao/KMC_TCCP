@@ -1,0 +1,24 @@
+TES        # NOR , TPD KMC or TES
+N     	   # N means new, C means continue
+T          # T - choose events auto, F -not
+9          # lattice size 0,9
+3          # number of particles
+300.0	   # temperature
+100000     # MAX_KMC_STEPS
+2          # size of the main particle
+1.3d0      # energy barrier for diffusion
+2.5d0      # energy barrier for diffusion_in_3,4
+1.0d0      # energy barrier for association
+0.71d0     # energy barrier for dehydration
+0.3d0      # energy barrier H-C
+0.58d0     # energy barrier for H-H
+0.22d0     # energy barrier for hydration
+1.00d13    # prefactor of TST
+10         # print_pov_freq
+10         # print_gnuplot_freq
+-1         # seed
+T          # T for H moving at random, F - not
+F          # T - record H moves, F - not
+F          # T - stop if all de-H, F - not
+T	   # T - print map in terminal, F -not
+F	   # T - endless KMC steps, F -not

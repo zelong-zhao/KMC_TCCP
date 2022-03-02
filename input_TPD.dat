@@ -1,0 +1,7 @@
+1.0d-3       # time_increa s/KMC
+300.0	     # mini temperature k
+600.0        # max temperature k
+0.8          # temperature increament K/s
+0.25	     # temp_per_plot k
+
+
