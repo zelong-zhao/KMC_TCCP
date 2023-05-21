@@ -1,7 +1,7 @@
 # Kenetic Monte Carlo For porphyrin molecules
 
+This is the Kinetic Monte Carlo (KMC) script for executing simulations of porphyrin molecules.
 https://doi.org/10.1021/acs.jpcc.0c02941
-
 
 ## Getting Started
 
@@ -11,19 +11,13 @@ Fortran > 6.1
 
 ### Installation 
 
-make install 
-
-### remove 
-
-make clean
+make install
 
 # Usage
 
-kmc_executable.out with [inputs.dat] Optional [input_TPD.dat] exit in directory.
-
-inputs.dat can adjust all parameters including lattice size, coupling strength, ect. 
-
-input_TPD.dat file is need for TPD simulation. 
+Run the `kmc_executable.out` with `[inputs.dat]` and optionally `[input_TPD.dat]`, ensuring these files are located in the appropriate directory.
+The `inputs.dat` file allows you to tweak all parameters, including aspects such as lattice size, coupling strength, etc. 
+For a TPD simulation, an `input_TPD.dat` file is required to be present in the execution directory.
 
 # License
 
