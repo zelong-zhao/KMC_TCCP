@@ -1,4 +1,4 @@
-# Kenetic Monte Carlo For porphyrin molecules
+# Kenetic Monte Carlo For Porphyrin Molecules
 
 This is the Kinetic Monte Carlo (KMC) script for executing simulations of porphyrin molecules.
 https://doi.org/10.1021/acs.jpcc.0c02941
